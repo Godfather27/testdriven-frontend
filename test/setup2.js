@@ -1,5 +1,5 @@
 var should = require('should')
-var setup = require('../src/setup.js')
+var setup = require('../src/setup2.js')
 
 describe('setup', function() {
   var points = []
