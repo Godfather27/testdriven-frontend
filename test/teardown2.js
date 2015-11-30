@@ -1,7 +1,7 @@
 var should = require('should')
 var teardown = require('../src/teardown2.js')
 
-describe('teardown', function() {
+describe('teardown Konrad', function() {
   var counter = {
     count:10
   }
@@ -12,11 +12,11 @@ describe('teardown', function() {
 
   it('should increase count property by 1', function() {
     const result = teardown(counter)
-    should(result).be.exactly(1)
+    result.should.have.properties({ count: 11 });
   })
 
   it('should double counter', function() {
     const result = teardown(counter, "double")
-    should(result).be.exactly(20)
+    result.should.have.properties({ count: 20 });
   })
 })
