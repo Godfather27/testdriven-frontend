@@ -14,7 +14,7 @@ describe('setup', function() {
   })
 
   it('should return uppercase string', function() {
-  	const result = setup(testString, "upper")
+    const result = setup(testString, "upper")
     should(result).be.exactly("LOREM IPSUM DOLOR SIT AMET").and.be.a.String()
   })
 
@@ -24,7 +24,7 @@ describe('setup', function() {
    })
 
   it('should return reversed string', function() {
-  	const result = setup(testString, "reversed")
+    const result = setup(testString, "reversed")
     should(result).be.exactly("tema tis rolod muspI meroL").and.be.a.String()
   })
 })
