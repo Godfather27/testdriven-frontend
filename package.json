@@ -1,13 +1,21 @@
 {
-  "name": "07-tdd",
+  "name": "testdriven-dev",
   "version": "1.0.0",
-  "description": "The seventh assignment",
+  "description": "testdriven development",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "author": "Hannes Moser <hannes@impossiblearts.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Godfather27/testdriven-frontend.git"
+  },
+  "author": "Sebastian Huber",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Godfather27/testdriven-frontend/issues"
+  },
+  "homepage": "https://github.com/Godfather27/testdriven-frontend#readme",
   "devDependencies": {
     "mocha": "^2.3.4",
     "should": "^7.1.1"
