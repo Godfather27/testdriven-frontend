@@ -19,7 +19,7 @@ describe('mocking Konrad', function() {
     callback.should.have.callCount(1);
   })
 
-  it('should double counter', function() {
+  it.skip('should double counter', function() {
     const callback = sinon.spy(mocking)
     callback.should.have.callCount(0);
     callback(counter, "double").should.have.properties({ count: 20 });
