@@ -1,7 +1,7 @@
 var should = require('should')
 var setup = require('../src/setup2.js')
 
-describe('setup', function() {
+describe('setup konrad', function() {
   var points = []
 
   before(function() {

@@ -1,7 +1,7 @@
 var should = require('should')
 var setup = require('../src/setup.js')
 
-describe('setup', function() {
+describe('setup seb', function() {
   var testString
 
   beforeEach(function() {

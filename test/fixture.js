@@ -1,7 +1,7 @@
 var should = require('should')
 var fixture = require('../src/fixture.js')
 
-describe('fixture', function() {
+describe('fixture seb', function() {
   it('first account should contain key "80ktk3yuui"', function() {
     should(fixture.Accounts[0].key).equal('80ktk3yuui')
   })

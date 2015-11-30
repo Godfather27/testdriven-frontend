@@ -1,7 +1,7 @@
 var should = require('should')
 var scalar = require('../src/scalar.js')
 
-describe('scalar', function(){
+describe('scalar seb', function(){
   it('should take a number', function(){
     should(scalar(10)).be.a.Number()
   })

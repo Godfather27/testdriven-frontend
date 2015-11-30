@@ -1,7 +1,7 @@
 var should = require('should')
 var teardown = require('../src/teardown.js')
 
-describe('teardown', function() {
+describe('teardown seb', function() {
   var testString = "Lorem Ipsum dolor sit amet"
 
   afterEach(function() {
