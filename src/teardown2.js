@@ -1,6 +1,8 @@
-module.exports = function(counter, setting){
+module.exports = function (counter, setting){
 	if(setting === "double"){
-		return counter.count *= 2;
+		counter.count *= 2;
+		return counter
 	}
-	return counter.count += 1;
+	counter.count += 1;
+	return counter;
 }
